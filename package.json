@@ -1,0 +1,26 @@
+{
+  "name": "healthybee-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthybee/healthybee-graphql-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healthybee/healthybee-graphql-api/issues"
+  },
+  "homepage": "https://github.com/healthybee/healthybee-graphql-api#readme",
+  "dependencies": {
+    "apollo-datasource": "^0.7.2",
+    "apollo-server": "^2.19.0",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.6"
+  }
+}
